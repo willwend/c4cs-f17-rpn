@@ -1,5 +1,0 @@
-[run]
-branch = False
-
-[report]
-ignore_errors = True
