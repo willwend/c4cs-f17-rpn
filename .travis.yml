@@ -5,6 +5,6 @@ install:
   - pip install clint
   - pip install -r requirements.txt
   - pip install coveralls
-script: coverage run test_rpn.py
+script: coverage run -m unittest
 after_success:
   - coveralls
