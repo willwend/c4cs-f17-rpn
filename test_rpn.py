@@ -12,7 +12,7 @@ class TestBasics(unittest.TestCase):
         self.assertEqual(2, result)
 
     def test_mult(self):
-        result = rpn.calculate('7 3 -')
+        result = rpn.calculate('7 3 *')
         self.assertEqual(21, result)
 
     def test_div(self):
